@@ -1,0 +1,19 @@
+*,before::after {
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar {
+    text-align: center;
+    background-color: beige;
+}
+.recipe-selection {
+    text-align: center;
+    padding-top: 10px;
+}
+img {
+    opacity: 95%;
+}
+img:hover{
+    opacity: 100%;
+}

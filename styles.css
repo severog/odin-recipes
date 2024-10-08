@@ -1,45 +1,5 @@
-*,before::after {
-    padding: 0;
-    margin: 0;
-}
-
-.top-bar {
-    text-align: center;
-    background-color: beige;
-}
-.recipe-selection {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.title {
-    text-align: center;
-    padding-bottom: 15px;
-}
 .pizza-img {
     margin: auto;
-}
-
-.recipe {
-    text-align: left;
-    padding-bottom:10px;
-    margin:40px;
-    background: rgb(50, 50, 50);
-    color: white;
-    border-radius: 10px;
-}
-
-h3 {
-    padding: 10px;
-}
-
-li {
-    margin: 10px;
-    padding: 10px;
-    list-style-type: none;
-}
-.go-home {
-    
 }
 
 /* NEW STYLES AFTER LEARNING Box-model and other styling */
@@ -49,6 +9,8 @@ html {
 }
 *,*::before,*::after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 .navi {
@@ -59,11 +21,12 @@ html {
 }
 .recipe-container {
     margin: 50px auto;
+    text-align: center;
 }
 ul > li{
     display: inline;
+    margin: 20px;
 }
-
 img {
     opacity: 95%;
     width: 300px;
@@ -71,4 +34,27 @@ img {
 }
 img:hover{
     opacity: 100%;
+}
+li {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+li > a {
+    display: block;
+    
+}
+
+footer {
+    background-color: rgb(50, 46, 45);
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: yellow;
 }

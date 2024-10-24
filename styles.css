@@ -29,8 +29,8 @@ ul > li{
 }
 img {
     opacity: 95%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 img:hover{
     opacity: 100%;
@@ -41,7 +41,6 @@ li {
 }
 li > a {
     display: block;
-    
 }
 
 footer {
@@ -51,10 +50,7 @@ footer {
     color: white;
     text-align: center;
 }
-footer a {
-    color: white;
-}
-footer a:hover {
+a:hover {
     color: yellow;
 }
 
@@ -80,4 +76,35 @@ footer a:hover {
 
 .recipe-intro h2 {
     padding: 20px;
+}
+
+
+/* UPDATES 10/24/2024 - ? */
+.body {
+    displaY: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.recipe-container {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+ul > div {
+    background-color: rgb(50, 46, 45);
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

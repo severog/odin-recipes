@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(52, 60, 79);
+    background-color: rgb(98, 132, 210);
 }
 h1 {
     font-size: 48px;
@@ -19,7 +19,7 @@ li {
 a {
     text-decoration: none;
     color: white;
-}
+}s
 a:hover{
     color: gold;
 }

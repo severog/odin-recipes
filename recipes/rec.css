@@ -1,5 +1,12 @@
 body {
     background-color: white;
     font-family: Stencil Std, fantasy;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+.page-info {
+    color: rgb(93, 127, 204);
 
 }

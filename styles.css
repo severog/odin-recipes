@@ -1,0 +1,11 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+ul > img {
+    width: 200px;
+    height: 200px;
+}
+ul {
+    text-align: center;
+}
